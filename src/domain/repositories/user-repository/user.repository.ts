@@ -1,4 +1,4 @@
-import { User } from "src/domain/entities/userEntitie/user.entitie";
+import { User } from "src/domain/entities/user-entitie/user.entitie";
 
 export interface UserRepository{
     createUser(user:User): void;
