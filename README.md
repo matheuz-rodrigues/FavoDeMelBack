@@ -20,9 +20,8 @@ Bem-vindo ao repositório **FavoDeMelBack**! Este projeto é o backend de uma ap
 - [Node.js](https://nodejs.org/)
 - [NestJS](https://nestjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [PostgreSQL](https://www.postgresql.org/) (ou outro banco de dados relacional)
-- [TypeORM](https://typeorm.io/)
-- [JWT](https://jwt.io/) para autenticação
+- [PrismaORM](https://www.prisma.io/)
+- [JWT](https://jwt.io/)
 
 ## Instalação
 
@@ -40,10 +39,9 @@ Bem-vindo ao repositório **FavoDeMelBack**! Este projeto é o backend de uma ap
 
 1. Crie um arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias, por exemplo:
   ```
-  DATABASE_URL=postgres://usuario:senha@localhost:5432/favodemel
+  DATABASE_URL=sua key de conexão com o banco de dados
   JWT_SECRET=sua_chave_secreta
   ```
-2. Ajuste as configurações do banco de dados conforme necessário em `ormconfig.json` ou no arquivo de configuração do NestJS.
 
 ## Scripts Disponíveis
 
@@ -70,8 +68,6 @@ src/
 - **Gestão de Produtos**: CRUD de produtos.
 - **Gestão de Pedidos**: Criação e acompanhamento de pedidos.
 - **Validação e Segurança**: Uso de pipes, guards e interceptors do NestJS.
-
-
 
 ## Licença
 
